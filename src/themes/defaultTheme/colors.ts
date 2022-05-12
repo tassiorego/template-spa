@@ -1,0 +1,36 @@
+import { ColorTheme } from '../Theme';
+
+const color: ColorTheme = {
+  'primary-01': '#ff9900',
+  'primary-02': '#ffad32',
+  'primary-03': '#ffc165',
+  'primary-04': '#ffd699',
+  'primary-05': '#ffe0b2',
+  'secondary-01': '#2A897E',
+  'secondary-02': '#43A496',
+  'secondary-03': '#DFF5F2',
+  'tertiary-01': '#247989',
+  'tertiary-02': '#14AECC',
+  'tertiary-03': '#D4F2FF',
+  'grayScale-01': '#2A2A2A',
+  'grayScale-02': '#767676',
+  'grayScale-03': '#A9A9A9',
+  'grayScale-04': '#DDDDDD',
+  'grayScale-05': '#ECECEC',
+  'grayScale-06': '#F8F8F8',
+  'grayScale-07': '#FFFFFF',
+  'success-01': '#5B7F51',
+  'success-02': '#9AD28B',
+  'success-03': '#DEF2D8',
+  'warning-01': '#AE6305',
+  'warning-02': '#FFB252',
+  'warning-03': '#FFD5A5',
+  'error-01': '#9A1E16',
+  'error-02': '#D32014',
+  'error-03': '#ED9D98',
+  'info-01': '#337895',
+  'info-02': '#38B7EE',
+  'info-03': '#A6E4FE',
+};
+
+export default color;
