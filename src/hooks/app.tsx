@@ -1,17 +1,16 @@
-import { ReactNode } from 'react';
-import { ThemeProvider } from 'styled-components';
-import GlobalStyle from '../styles/global';
-import { defaultTheme } from '../themes';
+import React from 'react';
+
+import '../styles/global.css';
+import { AuthProvider } from './auth';
 
 interface AppProviderProps {
-  children: ReactNode;
+  children: React.ReactNode;
 }
 
-export function AppProvider({ children }:AppProviderProps) {
+export function AppProvider({ children }: AppProviderProps) {
   return (
-    <ThemeProvider theme={defaultTheme}>
-      <GlobalStyle />
+    <AuthProvider>
       {children}
-    </ThemeProvider>
+    </AuthProvider>
   );
 }
